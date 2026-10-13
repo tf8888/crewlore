@@ -32,7 +32,7 @@ dependencies = [
     "pyyaml>=6.0,<7.0",
     # Anthropic is the default model provider, so it ships in the base install:
     # `pipx install crewlore` then `lore compile` works with just an API key.
-    "anthropic>=0.39",
+    "anthropic>=1.13.0",
 ]
 
 [project.scripts]
